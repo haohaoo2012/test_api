@@ -24,7 +24,6 @@ public class Order_Details implements Serializable {
     @Column(name = "pay_id")
     private Long pay_id;
 
-
     public Long getOrder_detail_id() {
         return order_detail_id;
     }
