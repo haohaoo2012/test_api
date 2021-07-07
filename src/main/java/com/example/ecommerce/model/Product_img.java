@@ -5,7 +5,7 @@ import java.io.Serializable;
 
 @Entity
 @Table(name="product_img")
-public class product_img implements Serializable {
+public class Product_img implements Serializable {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     @Column(name = "img_id")
@@ -38,6 +38,7 @@ public class product_img implements Serializable {
     public void setProduct_id(Long product_id) {
         this.product_id = product_id;
     }
+
 
     @Override
     public String toString() {

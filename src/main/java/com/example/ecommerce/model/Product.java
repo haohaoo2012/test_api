@@ -2,6 +2,8 @@ package com.example.ecommerce.model;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name="product")
@@ -24,6 +26,7 @@ public class Product implements Serializable {
     private String product_rate;
     @Column(name = "product_price")
     private String product_price;
+
 
     public Long getProduct_id() {
         return product_id;
